@@ -32,7 +32,7 @@ const eventKey = document.querySelector("#eventKey");
 const eventCode = document.querySelector("#eventCode");
 
 
-document.addEventListener("keypress", event => {
+document.addEventListener("keydown", event => {
     console.log(event);
     frontContainer.remove();
     containerLater.style.display = "block";
